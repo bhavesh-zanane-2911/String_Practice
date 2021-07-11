@@ -28,6 +28,9 @@ public class SingleLinkedList {
         third.next=fourth;
 
         s1.printList();
+        System.out.println("Trying to find an element");
+        Boolean anElementInAList = s1.findAnElementInAList(20);
+        System.out.println("Element 20 is present " +anElementInAList);
         s1.deleteANoteAtBegining();
         System.out.println("After deleting a element from the begining");
         s1.printList();
@@ -76,6 +79,17 @@ public class SingleLinkedList {
             current=current.next;
         }
         return count;
+    }
+
+    public Boolean findAnElementInAList(int value){
+        ListNode current=head;
+        while(current!=null){
+            if(current.data==value){
+                return true;
+            }
+                current=current.next;
+        }
+        return false;
     }
 
     public void printList(){
@@ -160,6 +174,7 @@ public class SingleLinkedList {
             previous.next=current.next;
         }
     }
+
 
 
 }

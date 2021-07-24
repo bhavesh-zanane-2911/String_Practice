@@ -1,3 +1,5 @@
+package StringPractice;
+
 public class TotalNoOfCharactersInAString {
     public static void main(String[] args) {
         String s1="Bhavesh   ";

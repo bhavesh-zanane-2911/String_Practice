@@ -1,3 +1,5 @@
+package StringPractice;
+
 public class TotalNoOfCharactersInAStringInBuildFunction {
     public static void main(String[] args) {
         String s1="Bhavesh   ";

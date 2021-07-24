@@ -1,9 +1,12 @@
+package StringPractice;
+
 import java.util.Locale;
 
 public class FindTheLongestAndSmallestPalindromeInAGivenString {
     public static void main(String[] args) {
         String s1="Wow Madam is driving racecar";
-        s1=s1+" ";
+
+        s1=s1+" ";//to get the last element
         int length=s1.length();
         String[] words=new String [20];//To find an array od words in a string
         String word="";
@@ -39,10 +42,10 @@ public class FindTheLongestAndSmallestPalindromeInAGivenString {
                     longest=smallest=words[i];
                 }
                 else{
-                    if(smallest.length()> words.length){
+                    if(smallest.length()> words[i].length()){
                         smallest=words[i];
                     }
-                    if(longest.length()< words.length){
+                    if(longest.length()< words[i].length()){
                         longest=words[i];
                     }
                 }

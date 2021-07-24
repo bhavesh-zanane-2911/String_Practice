@@ -1,3 +1,5 @@
+package StringPractice;
+
 import java.util.Arrays;
 
 public class AnnaGramProgram {

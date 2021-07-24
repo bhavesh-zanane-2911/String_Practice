@@ -174,7 +174,4 @@ public class SingleLinkedList {
             previous.next=current.next;
         }
     }
-
-
-
 }

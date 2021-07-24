@@ -1,3 +1,5 @@
+package StringPractice;
+
 public class TotalNoOfVowelsAndConsonantsInAString {
     public static void main(String[] args) {
         String s="Adesh Zanzane";

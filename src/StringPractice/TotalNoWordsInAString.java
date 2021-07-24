@@ -1,3 +1,5 @@
+package StringPractice;
+
 public class TotalNoWordsInAString {
     public static void main(String[] args) {
         String s1="Bhavesh is a good boy ";
